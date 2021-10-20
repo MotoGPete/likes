@@ -9,20 +9,85 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="box spacebetween displayflex">
-            <div class="box spacebetween displayflex">
-                <h1>Some Text</h1>
-            </div>    
-            <div class="box spacearound displayflex">
-                <div id="likes"></div>
-                <button onclick="clickCounter()" class="btn">Likes</button>
+    <div class="nav ">
+        <h1>Network</h1>
+        
+        
+    </div>
+    <div class="title aligncenter justifycenter">
+        <h1 class="justifycenter">Your Feed</h1>
+    </div>
+
+
+    
+    <div class="body">
+        <div class="container-2 flex">
+            <div class="container">
+                <div class="box spacearound">
+                    <ul style="list-style-type: none">
+                        <li><img src="https://placekeanu.com/200/150"></li>
+                        <li><a href="">Add an avatar</a></li>
+                        <li><h2>Name</h2></li>
+
+                    </ul>
+                </div>
             </div>
         </div>
-        <div class="box">
-            <p>Some filler text. Ghostbusters:Afterlife might be good, I'm worried about Dune<p>
+        <div class="container-2">
+            <div class="container flex-2">
+                <div class="box spacebetween displayflex">
+                    <div class="box spacebetween displayflex">
+                        <h1>Some Text</h1>
+                    </div> 
+
+                    <div class="box spacearound displayflex">
+                        <p id="likes">0</p><p>Likes</p>
+                        <button onclick="clickCounter('#likes')" class="btn">Like</button>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <p>Some filler text. Ghostbusters:Afterlife might be good, I'm worried about Dune<p>
+                </div>
+            
+            </div>
+
+            <div class="container flex-2">
+                <div class="box spacebetween displayflex">
+                    <div class="box spacebetween displayflex">
+                        <h1>Some Text</h1>
+                    </div> 
+
+                    <div class="box spacearound displayflex">
+                        <p id="likes2">0</p><p>Likes</p>
+                        <button onclick="clickCounter('#likes2')" class="btn">Like</button>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <p>Some filler text. Ghostbusters:Afterlife might be good, I'm worried about Dune<p>
+                </div>
+            
+            </div>
+
+            <div class="container flex-2">
+                <div class="box spacebetween displayflex">
+                    <div class="box spacebetween displayflex">
+                        <h1>Some Text</h1>
+                    </div> 
+
+                    <div class="box spacearound displayflex">
+                        <p id="likes3">0</p><p>likes</p>
+                        <button onclick="clickCounter('#likes3')" class="btn">Like</button>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <p>Some filler text. Ghostbusters:Afterlife might be good, I'm worried about Dune<p>
+                </div>
+            
+            </div>
         </div>
-    </div>
-        
+    </div>  
 </body>
 </html>
